@@ -19,7 +19,7 @@ public class AsmController {
 
     @GetMapping("/asm")
     public void asm(){
-        asmService.say();
+        asmService.hello();
     }
 
 }
